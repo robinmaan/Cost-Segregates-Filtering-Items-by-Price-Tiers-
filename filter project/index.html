@@ -11,10 +11,17 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500&display=swap"
       rel="stylesheet"listItems
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
   </head>
   <body>
+    <div>
+      <h1 class="heading">Watch Store </h1>
+    </div>
     <div class="container">
-        <div class="leftMenu">
+        <div class="leftMenu animate__animated animate__fadeIn">
           <input type="text" placeholder="Search..." class="search" />
           <h1>Categories</h1>
           <div class="cats">
@@ -25,6 +32,16 @@
             <input type="range" class="priceRange" />
             <span class="priceValue"></span>
           </div>
+          <div data-tooltip="Price:-$20" class="button">
+            <div class="button-wrapper">
+              <div class="text">Buy Now</div>
+                <span class="icon">
+                  <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+            </svg>
+                </span>
+              </div>
+            </div>
         </div>
         <div class="content">
           <div class="products">
